@@ -28,7 +28,8 @@
         <commons-fileupload.version>1.2.1</commons-fileupload.version>
 
         <mockito-all.version>1.8.5</mockito-all.version>
-        <unitils.version>3.1</unitils.version>
+        <unitils-spring.version>3.4</unitils-spring.version>
+        <unitils.version>3.4</unitils.version>
         <dbunit.version>2.4.8</dbunit.version>
     </properties>
     <dependencies>
@@ -153,12 +154,12 @@
             <version>2.6.10</version>
         </dependency>
         <!-- 依赖的测试类库 -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-test-mvc</artifactId>
-            <version>1.0.0.M1</version>
-            <scope>test</scope>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.springframework</groupId>-->
+            <!--<artifactId>spring-test-mvc</artifactId>-->
+            <!--<version>1.0.0.M1</version>-->
+            <!--<scope>test</scope>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
@@ -173,7 +174,7 @@
         <dependency>
             <groupId>org.unitils</groupId>
             <artifactId>unitils-spring</artifactId>
-            <version>${unitils.version}</version>
+            <version>${unitils-spring.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
